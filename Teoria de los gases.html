@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>    
+        <meta charset="utf-8">
+        <title>Teoría cinética de los gases y leyes de los gases</title> 
+        <SCRIPT SRC='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></SCRIPT>
+<SCRIPT>MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}})</SCRIPT>
+    </head>
+    <style>
+        h1{
+            border-radius: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: midnightblue;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        body{
+            background-color:blueviolet;
+        }
+        #div1{
+            background-color:black;
+            margin:100px;
+            padding:25px;
+            color:white;
+            font-family:monospace;
+        }
+        .SS{
+            border-left:50px;
+            border-right:50px;
+            margin-top:20px;
+            padding-left: 25px;
+        }
+        h2{
+            background-color:midnightblue;
+            border-radius: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        #uc{
+            border-radius: 20px;
+            margin-left:10px;
+            margin-right: 550px;
+            background-color: midnightblue;
+            padding:10px;
+        }
+        p{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .mm{
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: midnightblue;
+            border-radius: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .cap{
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    </style>
+    <body>
+        <div id="div1">
+        <h1 style="color: rgb(255, 255, 255); font-family:Courier, serif; text-align: center; ">Gases ideales: Teoría cinética y leyes</h1>
+        <div id="ix" style= "background-color: midnightblue; border-radius: 20px; margin-top: 15px; margin-bottom:15px; margin-left: 10px; margin-right: 700px; padding: 10px;">
+            <h3>Índice:</h3>
+            <ol>
+                <li><a href="#_1" style="color:deepskyblue;">1. Leyes de los gases</a>
+                    <ol>
+                        <li><a href="#_2.1" style="color:deepskyblue;">1.1 Ley de Avogadro</a></li>
+                        <li><a href="#_2.2" style="color:deepskyblue;">1.2 Ley de Boyle-Mariotte</a></li>
+                        <li><a href="#_2.3" style="color:deepskyblue;">1.3 Primera ley de Charles y Gay-Lussac</a></li>
+                        <li><a href="#_2.4" style="color:deepskyblue;">1.4 Segunda ley de Charles y Gay-Lussac</a></li>
+                    </ol>
+                    </li>
+                <li><a href="#_2" style="color:deepskyblue;">2. Teoría cinética de los gases</a>
+                <ol>
+                    <li><a href="#_2.1" style="color:deepskyblue;">2.1 Propiedades</a></li>
+                    <li><a href="#_2.2" style="color:deepskyblue;">2.2 Ley general y la constante de Boltzmann</a></li>
+                    <li><a href="#_2.3" style="color:deepskyblue;">2.3 Modelo Molecular para la presión de un gas ideal</a></li>
+                    <li><a href="#_2.4" style="color:deepskyblue;">2.4 Energía interna</a></li>
+                </ol>
+                </li>
+                
+            </ol>
+        </div>
+        <div id="uc" style="">
+        <h3>Constantes y equivalencias de unidades:</h3>
+        <h4>Constantes:</h4>
+        <ul>
+           <li>Constante de Boltzmann: \(K_{b}=1,381 \times 10^{-23}J/K\)</li> 
+           <li>Constante de los gases ideales: \(R=0.082 atmL/molK=8,31J/molK=1,987cal/molK\)</li> 
+           <li>Masa de un neutrón: \(m_{n}=1,675 \times 10^{-27} kg\)</li>
+           <li>Número de Avogadro: \(Na=6,022 \times 10^{23}\)</li>
+        </ul>
+        <h4>Equivalencias de unidades:
+            <ul>
+                <li>Presión: \(1atm=760mmHg=760torr=1,01325bar=101325Pa\)</li>
+                <li>Fuerza: \(1Pa=1N/m\)</li>
+                <li>Temperatura: \(1ºC=273,15K; xºC={5 \over 9}(ºF-32)\)</li> 
+                <li>Volumen: \(1L=1dm^{3}=1000cm^{3}\)</li>
+            </ul>
+        </h4>
+        </div>
+
+
+
+
+
+        <h2 id="_1" style="margin-top: 100px;">1. Leyes de los gases ideales:</h2>
+        <div class="cap">
+        <h2 class="LG" class="SS" id="_1.1">1.1 Ley de Avogadro</h2>
+        <p>A presión y temperatura constantes, el volumen de un gas es directamente proporcional a la cantidad 
+            de este que haya contenida. $${V \over n}=K_{1}$$
+        </p>
+        <div class="mm">
+        <h3>Modelo molecular ley 1:</h3>
+        <p>Aumentar el número de partículas produce un aumento de colisiones por unidad de tiempo de estas 
+            generando un aumento de la fuerza que estas generan sobre las superficies de su contenedor, 
+            es decir, aumenta la presión. Y si no se mantiene constante el volumen, este aumentará hasta que 
+            la presión del gas se iguale con la fuerza externa.
+        </p>
+        </div>
+        <h2 class="LG" class="SS" id="_1.1">1.2 Ley de Boyle-Mariotte</h2>
+        <p>A temperatura y cantidad de gas constantes, el volumen de un gas es inversamente proporcional
+            a la presión de este sobre su contenedor. $${VP}=K_{2}$$
+        </p>
+        <div class="mm">
+        <h3>Modelo molecular ley 2:</h3>
+        <p>El aumento de la presión interna de un gas se debe a un aumento de la cantidad de colisiones de las 
+            partículas con el contenedor por unidad de tiempo, lo cual, si la energía cinética (temperatura) 
+            de las partículas del gas ideal se mantiene constante, solo es posible si se reduce el espacio 
+            en el que estas se mueven, es decir, el volumen.
+        </p>
+        </div>
+        <h2 class="LG" class="SS" id="_1.1">1.3 Primera ley de Charles y Gay-Lussac</h2>
+        <p>A presión y cantidad constantes, el volumen de un gas es directamente proporcional a su 
+            temperatura. $${V \over T}=K_{3}$$
+        </p>
+        <h2 class="LG" class="SS" id="_1.1">1.3 Segunda ley de Charles y Gay-Lussac</h2>
+        <p>A volumen y cantidades constantes, la presión de un gas es directamente proporcional a su 
+            temperatura. $${P \over T}=K_{4}$$
+        </p>
+        <div class="mm">
+        <h3>Modelo molecular leyes 3 y 4:</h3>
+        <p>Como se demuestra en la <a href="#_2.4" style="color:deepskyblue">Sección de energía interna,</a>
+            La temperatura es una medida indercta de la energía cinética de las partículas, por lo tanto, al
+            aumentar la temperatura de un gas, aumenta la velocidad de cada una de sus partículas, con ello,
+            las colisiones por unidad de tiempo, y, si el volumen se conserva, aumentará la presión interna, 
+            si, en cambio, el volumen no se conserva, se conservará la presión interna aumentando el volumen.
+        </p>
+        </div>
+        </div>
+
+
+
+
+
+
+        
+        <h2 id="_2" style="margin-top: 100px;">2. Teoría cinética de los gases:</h2>
+        <div class="cap">
+        <h2 class="TC" class="SS" id="_2.1">2.1 Propiedades:</h2> 
+        <p class="TC">El modelo de la teoría cinética de los gases se basa en que estos cumplen con las siguientes propiedades:
+
+        <ul class="TC">
+            <li>El número de moléculas en el gas es grande y la separación entre ellas es grande en comparación con el volumen que ocupan.</li>
+            <li>Sus partículas se mueven libremente en línea recta en dirección aleatoria obedeciendo las leyes del movimiento de Newton.</li>
+            <li>Colisionan elásticamente entre sí y con las paredes de su contenedor.</li>
+            <li>Ocupan todo el volumen que las contiene.</li>
+            <li>Todas las moléculas son idénticas.</li>
+        </ul>
+        <h2 class="TC" class="SS" id="_2.2">2.2. Ley general  y la Constante de Boltzmann:</h2>
+        <p class="TC">Los gases están definidos por cuatro variables: Presión (P), Volumen (V), cantidad(n) y Temperatura(T). La relación entre estas cuatro variable está descrita en la ecuación de estado:
+            $$PV={nRT}.$$ Donde \(R\) es una constante. Ya que \(n\) representa el número de moles, este equivale al número de moléculas del gas entre el número de moléculas por cada mol, es decir, \(n={N \over Na}\)
+            Donde \(Na\) es el número de Avogadro y \(N\) es el número de moléculas. Reemplazando, $$PV={N \over Na}{RT}$$
+            Ya que \(R\) y \(Na\) son ambas constantes, su división también lo es, y equivale a una constante llamada: <b>La constante de Boltzmann</b>: $$k_{b}={R \over Na}.$$
+            Reemplazando en la ley de gases ideales, $$PV={Nk_{b}T}.$$ $$k_{b}={1,381\times10^{-23}{J/K}}.$$
+            <h2 class="TC" class="SS" id="_2.3">2.3. Modelo molecular para la presión de un gas ideal:</h2>
+        <p class="TC">Dado un gas contenido en un cubo con aristas de longitud \(d\), 
+            una molécula de dicho gas con masa \(m\) y una velocidad en el eje \(x\) que posee una cantidad de movimiento \(-mv_{x},\)
+            luego de una colisión elástica con una pared, resulta con una cantidad de movimiento \(mv_{x}.\)
+            Por lo tanto $$\Delta p=mv_{x}-(-mv_{x})=2mv_{x}.$$ Ya que \(F={\Delta p \over \Delta t},\) 
+            $$F={2mv_{x} \over \Delta t}.$$
+            Ya que entre cada colisión con la misma pared la partícula debe recorrer una distancia \(2d\),
+            al poseer la misma velocidad, el tiempo transcurrido entre cada colisión es de \(2d/v_{x}.\)
+            Por lo tanto, $$F={2mv_{x} \over {2d/v_{x}.}}={m{(v_{x})^{2}} \over d}.$$
+            Entonces, la fuerza ejercida por todas las \(N\) moléculas sobre la pared es 
+            $$F={\sum_{k=1}^{N}{m_{k}{(v_{kx})^{2}} \over d}}=
+            {{m_{1}{(v_{1x})^{2}} \over d}+{m_{2}{(v_{2x})^{2}} \over d}+{m_{3}{(v_{3x})^{2}} \over d}}+...
+            +{m_{N}{(v_{Nx})^{2}} \over d}.$$
+            Ya que cada partícula del gas es idéntica (refiérase a las propiedades de un gas ideal), sus masas son iguales,
+            además, al estar contenidas en el mismo espacio, la distancia que recorren también lo es, por lo tanto,
+            $$F={m \over d} \sum_{k=1}^{N}{(v_{kx})^{2}}={m \over d}(v_{1x}^{2}+v_{2x}^{2}+v_{3x}^{2}+...+
+            v_{Nx}^{2}).$$
+            Sin pérdida de generalidad se puede expresar la fuerza de la siguiente manera: 
+            $$F={Nm \over d} · \overline{(v_{x})^{2}}.$$
+            Donde \(\overline{(v_{x})^{2}}\) es la velocidad promedio en x de las partículas en el gas.<br>
+            Ahora, para una partícula con un movimiento totalmente arbitrario dentro del recipiente, 
+            la velocidad \(v\) está dada por \(v^{2}=(v_{x})^{2}+(v_{y})^{2}+(v_{z})^{2}\). 
+            Por lo tanto \(\overline {v^{2}}=\overline {(v_{x})^{2}}+\overline {(v_{y})^{2}}+\overline {(v_{z})^{2}}\). 
+            Ya que el movimiento es al azar, los valores promedio de las componentes de la velocidad son iguales 
+            entre sí, por lo tanto,
+            \( {1 \over 3} \overline {v^{2}}= \overline {(v_{x})^{2}}.\) Entonces, se puede reescribir la fuerza 
+            de la siguiente manera:
+            $$F={Nm \overline {v^{2}} \over 3d}.$$
+            Ya que \(P={F \over A}\), la presión sobre una pared del contenedor está dada por la fórmula:
+            $$P={F \over d^{2}}={Nm \overline {v^{2}} \over 3d^{3}};$$
+            $$P={Nm \overline {v^{2}} \over 3V}.$$
+            Es decir, la presión es directamente proporcional al número de moléculas del gas y su velocidad. 
+            De igual manera se puede escribir:
+            $$P={{2 \over 3}({N\over V}){({1 \over 2}m \overline {v^{2}})}},$$
+            Donde se puede apreciar más fácilmente que la presión es directamente proporcional a la energía cinética del gas.
+        </p>
+        <h2 class="TC" class="SS" id="_2.4">2.4. Energía interna:</h2>
+            <h3 class="TC" id="PoliAt">Gas poliatómico:</h3>
+            <p class="TC">Un gas poliatómico está compuesto por moléculas de más de un átomo, tal y como el \(CO_{2}\) 
+            o el Oxígeno molecular.<br>
+            Si se reemplaza la fórmula de presión obtenida anteriormente en la ecuación de estado 
+            de un gas ideal se obtiene:
+            $${{Nk_{b}T} \over V}={{Nm \overline {v^{2}}} \over 3V}.$$
+            Simplificando y dividiendo por 2,
+            $${{3 \over 2}Nk_{b}T}={N{1 \over 2}m \overline {v^{2}}}.$$
+            Por lo tanto,
+            $$E_{c}={{3 \over 2}Nk_{b}T}={{3 \over 2}nRT}.$$
+            Donde Ec simboliza Energía cinética. Así se puede evidenciar que la energía cinética de un
+            gas ideal es directamente proporcional a su temperatura.<br>
+            Un gas poliatómico no conserva toda su energía en la energía cinética de sus moléculas.
+            </p>
+            <h3 class="TC" id="MonoAt">Gas monoatómico:</h3>
+            <p class="TC">Un gas monoatómico está compuesto por moléculas de un solo átomo, tal y como iones
+            de hidrógeno.<br>
+            La energía interna de un gas ideal monoatómico se le debe en su totalidad a la energía cinética de sus moléculas, 
+            y se simboliza con la letra \(U\);
+            $$U={{3 \over 2}Nk_{b}T}={{3 \over 2}nRT}.$$
+            </p>
+        </div>
+        </div>
+        <p style="color: beige;">Rafael Carbonell</p>
+        <p style="color: beige;">rafuro@hotmail.com</p>
+        </body>
+</html>
